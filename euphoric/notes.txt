@@ -1,0 +1,13 @@
+DOCKER : 
+
+#go to folder and type : 
+docker build -t $image-name .
+docker run --name some_name $image-name -d
+
+to compile all docker files in all folder go one folder back of project folder where dockerfile is.
+add docker-compose.yml 
+run : docker compose up -d
+      and docker compose down
+
+
+KUBERNETES:
